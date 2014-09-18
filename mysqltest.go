@@ -19,7 +19,7 @@ func main(){
 
 	 */
 
-	db, err := sql.Open("mysql", "redmine:Netand1410@tcp(192.168.0.203:3306)/redmine")
+	db, err := sql.Open("mysql", "redmine:pass@tcp(192.168.0.203:3306)/redmine")
 
 	if err != nil {
         panic("a" +err.Error())  // Just for example purpose. You should use proper error handling instead of panic
